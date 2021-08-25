@@ -1,0 +1,29 @@
+#contenedor{
+    background-color:aqua;
+    height: 750px
+    width: 850px
+}
+#menu{
+    background-color: rgb(212, 196, 255);
+    height: 750px;
+    width: 295px;
+    display: inline-block;
+}
+#contenido{
+    background-color: rgb(237, 100, 141);
+    height: 750px;
+    width: 550;
+    display: inline-block;
+    
+}
+#perfil{
+    background-color: blue;
+    height: 230px;
+    width: 295px;
+    
+}
+#opciones{
+    background-color: brown;
+    height: 350px;
+    width: 295px;
+}
