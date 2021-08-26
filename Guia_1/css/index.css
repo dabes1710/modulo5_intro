@@ -1,34 +1,68 @@
 #contenedor{
-    background-color:aqua;
-    height: 750px
-    width: 850px
+    /* background-color: #F5FF90; */
+    background-color: black;
+    height: 750px;
+    width: 850px;
 }
+
 #menu{
-    background-color: rgb(212, 196, 255);
+    background-color: #D6FFB7;
     height: 750px;
     width: 295px;
     display: inline-block;
+    vertical-align: top;
+    
 }
+
 #contenido{
-    background-color: rgb(237, 100, 141);
+    background-color: #FF9F1C;
     height: 750px;
-    width: 550;
+    width: 550px;
     display: inline-block;
-    
+    vertical-align: top;
 }
+
 #perfil{
-    background-color: blue;
-    height: 230px;
+    background-color: blanchedalmond;
     width: 295px;
-    
+    height: 250px;
 }
+
 #opciones{
     background-color: brown;
-    height: 350px;
     width: 295px;
+    height: 400px;
 }
+
 #configuracion{
-    background-color: cornsilk;
-    height: 170px;
+    background-color:cadetblue;
     width: 295px;
+    height: 100px;
+}
+
+#foto{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    /* right: 15px;
+    left: 15px;
+    bottom: 0px; */
+}
+
+#datos-usuario{
+    background-color:darkkhaki;
+    width: 140px;
+    height: 250px;
+    display: inline-block;
+}
+
+.opcion{
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
 }
