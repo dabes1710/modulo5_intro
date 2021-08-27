@@ -85,3 +85,19 @@
 .separadores h4{
     text-align: right;
 }
+
+.articulo_1{
+    height: 180px;
+    width: 25%;
+    background-color: burlywood;
+}
+
+.articulo_2{
+    
+    height: 180px;
+    width: 35%;
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: top;
+    float: @include mixin;;
+}
