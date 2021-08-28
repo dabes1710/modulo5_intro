@@ -4,7 +4,6 @@
     height: 750px;
     width: 850px;
 }
-
 #menu{
     background-color: #D6FFB7;
     height: 750px;
@@ -13,7 +12,6 @@
     vertical-align: top;
     
 }
-
 #contenido{
     background-color: #FF9F1C;
     height: 750px;
@@ -21,25 +19,21 @@
     display: inline-block;
     vertical-align: top;
 }
-
 #perfil{
     background-color: blanchedalmond;
     width: 295px;
     height: 250px;
 }
-
 #opciones{
     background-color: brown;
     width: 295px;
     height: 400px;
 }
-
 #configuracion{
     background-color:cadetblue;
     width: 295px;
     height: 100px;
 }
-
 #foto{
     background-color: aqua;
     width: 150px;
@@ -53,27 +47,23 @@
     left: 15px;
     bottom: 0px; */
 }
-
 #datos-usuario{
     background-color:darkkhaki;
     width: 140px;
     height: 250px;
     display: inline-block;
 }
-
 .opcion{
     height: 50px;
     text-align: center;
     border: 1px solid black;
 }
-
 .filas{
     height: 180px;
     width: 95%;
     background-color: white;
     margin-top: 5px;
 }
-
 .separadores{
     height: 180px;
     width: 49%;
@@ -81,28 +71,37 @@
     display: inline-block;
     vertical-align: top;
 }
-
 .separadores h4{
     text-align: right;
 }
-
-.articulo_1{
-    height: 180px;
-    width: 25%;
-    background-color: burlywood;
+.columna{
+    width: 28%;
+    height: 80%;
+    background-color: green;
     display: inline-block;
+    margin: 0;
+    vertical-align: top;
 }
-
-.articulo_2{
-    
-    height: 180px;
-    width: 35%;
-    background-color: yellow;
-    display: inline-block;
+.columna h5, .columna h6, .columna p{
+    margin: 0;
 }
-.articulo_3{
-    height: 180px;
-    width: 35%;
-    background-color: purple;
+.foto{
+    width: 50px;
+    height: 50px;
+    background-color: hotpink;
+    border-radius: 50%;
+}
+.mitad-columna{
+    width: 13%;
+    height: 80%;
+    background-color: green;
     display: inline-block;
-   }
+    margin: 0;
+}
+.mitad-columna-foto{
+    margin: 0 auto;
+    width: 90%;
+    height: 30%;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10%;
